@@ -2,21 +2,27 @@
   box-sizing: border-box;
 }
 
-:root {
+/*:root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
+}*/
+
+@font-face {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
 }
 
 body {
   background-color: #fff;
-  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
-  color: #2e2f42;
+  color: #434455;
+  font-display: swap;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
 }
 
@@ -24,11 +30,17 @@ a {
   text-decoration: none;
 }
 
+.page-header {
+}
+
+.header-nav {
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -50,6 +62,9 @@ a {
   margin-right: 76px;
 }*/
 
+.nav-item {
+}
+
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
@@ -58,7 +73,12 @@ a {
 }
 
 .contacts {
-  font-style: normal;
+}
+
+.contacts-list {
+}
+
+.contacts-item {
 }
 
 .contacts-link {
@@ -66,6 +86,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -106,6 +127,14 @@ a {
   background-color: #4d5ae5;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.feature {
+}
+
 .visually-hidden {
   position: absolute;
   width: 1;
@@ -117,4 +146,72 @@ a {
   clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
+}
+
+.feature-list {
+}
+
+.feature-item {
+}
+
+.feature-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+}
+.portfolio-category {
 }
