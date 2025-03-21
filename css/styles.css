@@ -7,19 +7,17 @@
   --second-family: "Raleway", sans-serif;
 }*/
 
-@font-face {
+/*@font-face {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   font-family: "Raleway", sans-serif;
   font-display: swap;
-}
+}*/
 
 body {
   background-color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
-  font-style: normal;
   color: #434455;
-  font-display: swap;
 }
 
 ul {
@@ -125,6 +123,7 @@ a {
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -185,6 +184,9 @@ a {
 }
 
 .team-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .team-subtitle {
@@ -218,6 +220,9 @@ a {
 }
 
 .portfolio-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .portfolio-subtitle {
