@@ -1,6 +1,6 @@
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 body {
   background-color: #fff;
@@ -105,7 +105,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -116,19 +116,6 @@ a {
 }
 
 .feature {
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1;
-  height: 1;
-  margin: -1;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
 }
 
 .feature-list {
@@ -169,8 +156,8 @@ a {
 }
 
 .team-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
   background: #fff;
 }
 
@@ -202,12 +189,13 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .portfolio-list {
 }
 
 .portfolio-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
   background: #fff;
 }
 
